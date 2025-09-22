@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: red;
+    text-align: justify;
+}
+button {
+    background-color:rgba(11, 176, 85, 0.2);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(7, 211, 205);
+}
+p{
+    text-align: justify;
+    text-decoration: underline;
+}
+div {
+    background-color: rgba(255, 255, 0, 0.5);
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-style: italic;     
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-image: url(../assets/handdrawn.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+}
