@@ -1,0 +1,79 @@
+👇
+
+🚀 Node & npm Scripts — Quick Notes
+1. Running files directly
+node filename.js
+
+
+Runs a file directly with Node.js.
+
+Use this for quick tests or utility scripts.
+
+Doesn’t depend on package.json.
+
+2. npm scripts
+
+Defined in the "scripts" section of package.json.
+Example:
+
+"scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "test": "echo \"No tests yet\""
+}
+
+3. npm start
+
+Special built-in shortcut for the "start" script.
+
+Runs with just:
+
+npm start
+
+
+Equivalent to:
+
+npm run start
+
+
+Commonly used for production mode (stable run, no auto-reload).
+
+4. npm run dev
+
+Runs the "dev" script from package.json.
+
+Must use run because only start and test are shortcuts.
+
+Usually used for development mode (with nodemon, extra logs, etc.):
+
+"dev": "nodemon index.js"
+
+5. Why run is needed for dev
+
+npm treats only two scripts specially:
+
+npm start = npm run start
+
+npm test = npm run test
+
+All others need npm run <name>.
+
+6. When to use what
+
+node filename.js → quick test of a file.
+
+npm run dev → development mode (auto-restart with nodemon).
+
+npm start → production mode (stable, clean run).
+
+✅ Golden Rule:
+
+Dev mode → npm run dev
+
+Prod mode → npm start
+
+One-off scripts → node filename.js
+
+Want me to also add a sample package.json template (with start, dev, and a test script) at the end of your notes so you can reuse it anytime?
+
+ChatGPT can make mistakes. Check important info. See Cookie Preferences.
