@@ -17,9 +17,15 @@ console.log("Loops in JavaScript");
 // }
 
 // Do-While Loop
-let i =1;
-do{
-    console.log(i);
-    i++;
+// let i =20;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i <= 10);
+
+// for-of Loop
+let colors = ["Red", "Green", "Blue", "Yellow"];
+for (let color of colors) {
+    console.log(color);
 }
-while(i <= 5);
