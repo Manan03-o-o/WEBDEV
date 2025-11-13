@@ -10,8 +10,16 @@ console.log("Loops in JavaScript");
 // console.log("sum =", sum);
 
 // While Loop
+// let i =1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
+
+// Do-While Loop
 let i =1;
-while (i <= 5) {
+do{
     console.log(i);
     i++;
 }
+while(i <= 5);
