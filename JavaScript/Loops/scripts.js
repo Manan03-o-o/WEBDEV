@@ -25,7 +25,17 @@ console.log("Loops in JavaScript");
 // while(i <= 10);
 
 // for-of Loop
-let colors = ["Red", "Green", "Blue", "Yellow"];
-for (let color of colors) {
-    console.log(color);
+// let colors = ["Red", "Green", "Blue", "Yellow"];
+// for (let color of colors) {
+//     console.log(color);
+// }
+
+// for-in Loop
+let person = {
+    name: "Alice",
+    age: 30,
+    city: "New York"
+};
+for (let key in person) {
+    console.log(key, ":", person[key]);
 }
