@@ -1,2 +1,2 @@
 let str = "Hello, World!";
-st
+console.log(str[0]);
